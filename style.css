@@ -1,0 +1,102 @@
+body {
+  background-color: #63533c;
+  font-family: "Inter", sans-serif;
+  border-block-color: #a7885d;
+}
+
+::selection {
+  background: #a7885d;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #a7885d;
+  color: #ffffff;
+}
+
+hr:not([size]) {
+  height: 1px;
+}
+
+hr {
+  margin: 0 auto;
+  width: 30%;
+  padding: 1.2px;
+  color: var(--acsentColor);
+  margin-bottom: 2.4rem;
+  opacity: 100%;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+#skills {
+  background-color: #a7885d;
+}
+
+#skills img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s;
+}
+
+#skills img:hover {
+  transform: scale(1.05);
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+#projects {
+  background-color: #63533c;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-inner {
+  border: 5px solid #a7885d;
+}
+
+#contact {
+  background-color: #a7885d;
+}
+
+.site-footer {
+  background-color: #000000;
+}
