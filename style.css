@@ -27,7 +27,7 @@ section {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.2em; /* Adjust as needed */
-  animation: typing 4s steps(37, end), blink-caret 0.75s step-end infinite;
+  animation: typing 8s steps(37, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
