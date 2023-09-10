@@ -1,3 +1,5 @@
+AOS.init();
+
 //Navbar Links Active On Scroll
 $(document).ready(function () {
   $("body").scrollspy({
