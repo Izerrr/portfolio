@@ -20,12 +20,13 @@ section {
 
 .lead {
   width: auto;
+  font-size: 15px;
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid #63533c; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  letter-spacing: 0.2em; /* Adjust as needed */
   animation: typing 4s steps(34, end), blink-caret 0.75s step-end infinite;
 }
 
