@@ -14,3 +14,15 @@ ul.addEventListener("click", (e) => {
     e.target.classList.add("active");
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    var toastEl = document.getElementById("myToast");
+    var toast = new bootstrap.Toast(toastEl, {
+      autohide: false,
+    });
+
+    toastEl.classList.remove("hide"); // Ensure it's not hidden
+    toast.show();
+  }, 5000); // 5000ms = 5 seconds
+});
