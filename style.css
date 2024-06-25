@@ -92,14 +92,16 @@ hr {
 }
 
 #skills img {
-  display: block;
-  width: 150px;
-  height: 150px;
+  margin: 5px;
+  display: grid;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
   transition: all 0.3s;
 }
 
 #skills img:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 .justify-content-evenly {
