@@ -1,11 +1,11 @@
 body {
-  background-color: #63533c;
-  font-family: "Inter", sans-serif;
-  border-block-color: #a7885d;
+  background-color: #009ce6;
+  font-family: "Montserrat", sans-serif;
+  border-block-color: #dbedff;
 }
 
 ::selection {
-  background: #a7885d;
+  background: #dbedff;
 }
 
 section {
@@ -14,8 +14,8 @@ section {
 
 .jumbotron {
   padding-top: 7rem;
-  background-color: #a7885d;
-  color: #ffffff;
+  background-color: #f4faff;
+  color: #009ce6;
 }
 
 .lead {
@@ -23,7 +23,7 @@ section {
   font-size: 15px;
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #63533c; /* The typwriter cursor */
+  border-right: 0.15em solid #dbedff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.2em; /* Adjust as needed */
@@ -47,7 +47,7 @@ section {
     border-color: transparent;
   }
   50% {
-    border-color: #ffffff;
+    border-color: #accbff;
   }
 }
 
@@ -88,7 +88,7 @@ hr {
 }
 
 #skills {
-  background-color: #a7885d;
+  background-color: #f4faff;
 }
 
 #skills img {
@@ -111,11 +111,13 @@ hr {
 }
 
 #projects {
-  background-color: #63533c;
+  background-color: #009ce6;
 }
 
 .card {
   transition: all 0.3s;
+  border-color: #accbff;
+  border-width: 2px;
 }
 
 .card:hover {
@@ -123,15 +125,15 @@ hr {
 }
 
 .carousel-inner {
-  border: 5px solid #a7885d;
+  border: 5px solid #accbff;
 }
 
 #contact {
-  background-color: #a7885d;
+  background-color: #f4faff;
 }
 
 .site-footer {
-  background-color: #000000;
+  background-color: #009ce6;
 }
 
 a {
