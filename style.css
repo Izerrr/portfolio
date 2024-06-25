@@ -96,6 +96,7 @@ hr {
   display: grid;
   width: 120px;
   height: 120px;
+  object-fit: contain;
   overflow: hidden;
   transition: all 0.3s;
 }
